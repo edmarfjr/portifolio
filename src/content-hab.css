@@ -1,0 +1,97 @@
+.center-translate {
+  left: 50%;
+  position: relative;
+  -webkit-transform: translate(-50%, 0) !important;
+  -moz-transform: translate(-50%, 0) !important;
+  -ms-transform: translate(-50%, 0) !important;
+  transform: translate(-50%, 0) !important; }
+
+  #content-hab {
+    background-color: rgb(0, 54, 61);
+    width: 100%;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+.center {
+	align-content: center;
+}
+.grow0 {
+	flex-grow: 0;
+}
+.item {
+  margin: 5px;
+  
+	padding: 0 10px;
+	background: rgb(179, 179, 179);
+	text-align: center;
+	font-size: 1.5em;
+}.item:hover {
+  background-color: transparent;
+  color: #F2E9E4; }
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.container{
+  max-width: 100%;
+ 
+  display: flex;
+
+}
+
+#content-hab h2 {
+  font-family: "AfterMidnite", sans-serif;
+  color: rgb(2, 178, 184);
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 3rem; }
+  @media only screen and (max-width: 768px) {
+    #content-hab h2 {
+      text-align: center;
+      font-size: 4rem;
+      margin-bottom: 1rem; } }
+
+#content-hab h3 {
+  color: rgb(154, 240, 197);
+  font-size: 1.5rem;
+  margin-bottom: 1rem; }
+  @media only screen and (max-width: 768px) {
+    #content-hab h3 {
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: 1rem; } }
+
+#content-hab p {
+  font-family: "AfterMidnite", sans-serif;
+  color:  rgb(0, 54, 61);
+  line-height: 2rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.1rem; }
+  @media only screen and (max-width: 768px) {
+    #content-hab p {
+      text-align: center; } }
+  #content-hab p:hover{
+    color:  rgb(154, 240, 197);
+  }
+
+
+#content-hab img {
+  height: 120px;
+  width: 120px;
+  margin-top: 1rem;
+  margin-bottom: 4rem; }
+  @media only screen and (max-width: 768px) {
+    #content-hab img {
+      height: 100px;
+      left: 50%;
+      position: relative;
+      -webkit-transform: translate(-50%, 0) !important;
+      -moz-transform: translate(-50%, 0) !important;
+      -ms-transform: translate(-50%, 0) !important;
+      transform: translate(-50%, 0) !important; } }
+  @media only screen and (max-width: 480px) {
+    #content-hab img {
+      height: 80px; } }

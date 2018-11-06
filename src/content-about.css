@@ -1,0 +1,102 @@
+.center-translate {
+  left: 50%;
+  position: relative;
+  -webkit-transform: translate(-50%, 0) !important;
+  -moz-transform: translate(-50%, 0) !important;
+  -ms-transform: translate(-50%, 0) !important;
+  transform: translate(-50%, 0) !important; }
+
+  #content-about {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+.center {
+	align-content: center;
+}
+.grow0 {
+	flex-grow: 0;
+}
+.item {
+  margin: 5px;
+  
+	padding: 0 10px;
+	
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.container{
+  max-width: 400px;
+ 
+  display: flex;
+
+}
+
+#content-about h2 {
+  font-family: "AfterMidnite", sans-serif;
+  color: rgb(0, 76, 78);
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 3rem; }
+  @media only screen and (max-width: 768px) {
+    #content-about h2 {
+      text-align: center;
+      font-size: 4rem;
+      margin-bottom: 1rem; } }
+
+#content-about h3 {
+  color: rgb(0, 76, 78);
+  font-size: 1.5rem;
+  margin-bottom: 1rem; }
+  @media only screen and (max-width: 768px) {
+    #content-about h3 {
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: 1rem; } }
+
+#content-about p {
+  font-family: "AfterMidnite", sans-serif;
+  color:  rgb(0, 54, 61);
+  line-height: 2rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.1rem; }
+  @media only screen and (max-width: 768px) {
+    #content-about p {
+      text-align: center; } }
+
+
+#content-about img {
+  height: 320px;
+  width: 320px;
+  border-radius: 100%;
+  margin-top: 1rem;
+  margin-bottom: 4rem; }
+  @media only screen and (max-width: 768px) {
+    #content-about img {
+      height: 100px;
+      left: 50%;
+      position: relative;
+      -webkit-transform: translate(-50%, 0) !important;
+      -moz-transform: translate(-50%, 0) !important;
+      -ms-transform: translate(-50%, 0) !important;
+      transform: translate(-50%, 0) !important; } }
+  @media only screen and (max-width: 480px) {
+    #content-about img {
+      height: 80px; } }
+
+
+.butface {
+    background:url(/images/facebook.PNG) no-repeat;
+    cursor:pointer;
+    width: 200px;
+    height: 100px;
+    border: none;
+}
